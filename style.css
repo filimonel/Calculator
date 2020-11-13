@@ -1,17 +1,17 @@
 /* Fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
 *, *::before, *::after {
   box-sizing: border-box;
-  font-family: Gotham Rounded, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: normal;
 }
 
 body {
   padding: 0;
   margin: 0;
-  background: linear-gradient(to right, #00AAFF, #00FF6C);
+  background: linear-gradient(to right, #7fdbda, #ede682);
 }
 
 .calculator-grid {
@@ -28,7 +28,7 @@ body {
   font-size: 2rem;
   border: 1px solid white;
   outline: none;
-  background-color: rgba(255, 255, 255, .75);
+  background-color: #eeeded;
 }
 
 .calculator-grid > button:hover {
@@ -41,7 +41,7 @@ body {
 
 .output {
   grid-column: 1 / -1;
-  background-color: rgba(0, 0, 0, .75);
+  background-color: 9ad3bc;
   display: flex;
   align-items: flex-end;
   justify-content: space-around;
